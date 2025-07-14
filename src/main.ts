@@ -11,5 +11,14 @@ console.log('Hello, World!');
 // arr.push(9);
 // console.log(arr);       
 
+// this is show how obj behave on typescript
+// let obj: {name: string, age:number, email?: string}={
+//   name: "shaharyar",
+//   age: 23,
+//   email: "",
+// }
+// obj.email="shaharyar@gmail.com"
+// console.log(obj);
+
 
 
