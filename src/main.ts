@@ -20,15 +20,14 @@ let obj: {name: string, age:number, email?: string}={
 obj.email="shaharyar@gmail.com"
 console.log(obj);
 
+// this is show how to use function in typescript
 const num1 = document.getElementById("inputone")! as HTMLInputElement;
 const num2 = document.getElementById("inputtwo")! as HTMLInputElement;
 const btn = document.getElementById("btn")! as HTMLButtonElement;
 
-
 function sumUp(n1: number, n2: number): number {
   return n1 + n2;
 }
-
 
 btn?.addEventListener('click', () => {
   console.log('Sum = ', sumUp(Number(num1.value), Number(num2.value)));
